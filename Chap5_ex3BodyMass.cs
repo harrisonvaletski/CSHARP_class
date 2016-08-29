@@ -9,6 +9,22 @@ namespace ConsoleApplication15
     class Program
     {
 
+
+            /*
+            Write a program to calculate and display a person’s Body Mass Index (BMI).
+            BMI is an internationally used measure of obesity. Depending on where you live,
+            either use the Imperial BMI formula or the Metric Imperial Formula. Once the
+            BMI is calculated, display a message of the person’s status. Prompt the user for
+            both their weight and height. The BMI status categories, as recognized by the
+            U.S. Department of Health & Human Services, are shown in the table below:
+                                    BMI Weight Status
+            Below 18.5 Underweight
+                    18.5 - 24.9 Normal
+                            25 - 29.9 Overweight
+                                    30 & above Obese
+            */
+
+
         static Double bMI(int weight ,int height)
         {
              Double kingPhillip=(weight*703)/(height*height);
