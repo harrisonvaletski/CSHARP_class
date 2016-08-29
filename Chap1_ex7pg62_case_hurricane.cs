@@ -51,20 +51,6 @@ namespace ConsoleApplication13
 
 
 
-            /*
-            Write a program to calculate and display a person’s Body Mass Index (BMI).
-BMI is an internationally used measure of obesity. Depending on where you live,
-either use the Imperial BMI formula or the Metric Imperial Formula. Once the
-BMI is calculated, display a message of the person’s status. Prompt the user for
-both their weight and height. The BMI status categories, as recognized by the
-U.S. Department of Health & Human Services, are shown in the table below:
-BMI Weight Status
-Below 18.5 Underweight
-18.5 - 24.9 Normal
-25 - 29.9 Overweight
-30 & above Obese
-    */
-
 
             string inputValue = Console.ReadLine();
             int theWeather = Convert.ToInt32(inputValue);
